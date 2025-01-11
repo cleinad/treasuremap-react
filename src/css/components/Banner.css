@@ -1,0 +1,60 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header.banner {
+    width: 100%; /* Full-width header */
+    line-height: 0;
+
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: var(--primary-color);
+
+    height: var(--banner-height);
+    z-index:99999;
+    background-color: transparent; /* Use the primary color for the background */
+    justify-content: space-between;
+
+    display: flex; /* Flexbox for layout */
+    flex-flow:row wrap; /* (flex-direction and flex-wrap) sets direction to horizontal (is on row by default)*/
+
+    align-items: center; /* Vertically center the items */
+    padding-bottom: var(--base-spacing); /*Add padding based on a global spacing variable */
+}
+
+.banner-title-logo {
+    display: flex; /* Flexbox to organize header elements horizontally */
+    justify-content: flex-end; /* Align content horizontally to the right */
+    align-items: center; /* Vertically center all elements inside */
+    gap: 1vw; /* Add spacing between the header elements */
+    padding-left: 2vw;
+    
+    margin-left: 0;
+}
+
+.banner-links {
+    justify-content: flex-end; /* Align content horizontally to the right */
+    padding-right: 5%
+}
+
+.banner-image {
+    max-height: 60px; /* Restrict image height for consistent scaling */
+    object-fit: contain; /* Maintain aspect ratio without distortion */
+}
+
+.banner-title {
+    font-family: var(--heading-font);
+    font-size: 1.8rem; /* Make the title text slightly larger */
+    font-weight: 600;
+    margin: 0; /* Remove default margin */
+    color: var(--title-color); /* Use the global text color variable */
+    align-items: center;
+}
+
+.banner-navigation {
+    display: flex; /* Layout navigation links horizontally */
+    align-items: center; /* Center links vertically */
+    gap: 15px; /* Add spacing between navigation items */
+}

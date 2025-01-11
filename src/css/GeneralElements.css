@@ -1,0 +1,150 @@
+body, h1, h2, h3, p, a, button {
+    font-family: var(--main-font); /* Use Rubik consistently */
+    font-size: 1em;
+    font-weight: 400; /* Default weight */
+    color: var(--text-color);
+}
+
+/* Heading Styles */
+h1 {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+h6 {
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+  /* Paragraph Styles */
+p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+/* General Body Layout */
+body {
+    margin: 0; /* Remove default body margin */
+    margin-left: 0vw; /*global left margin*/
+    padding: 0; /* Remove default body padding */
+    background-color: var(--background-color); /* Set background color */
+    color: var(--text-color); /* Set main text color */
+    line-height: 1.6; /* Add comfortable line spacing for readability */
+    width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: var(--main-font); /* Use Rubik consistently */
+    font-weight: 500!important;
+    /* text settings */
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styling for general page elements */
+.content{ 
+     /* Use global font for body */
+    position: relative;
+    top: var(--banner-height);
+    font-family: 'Inter';
+    font-weight: 900 !important;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    margin-bottom: var(--footer-height);
+}
+
+.header{
+    text-align: left; /* Align text in the greeting section to the left */
+    font-size: 2rem;
+    margin: var(--base-spacing); /* Add spacing around the greeting */
+    position: relative;
+    color: var(--text-color);
+    font-weight: 900;
+}
+.header h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.important{
+    /* Box info - should be a blue box */
+    padding: 3vh;
+    background-color: var(--primary-color);
+    border: solid;
+    border-color: var(--secondary-color);
+    border-radius: 1vh;
+    margin: 5vh;
+    /* Text Info */
+    font-size: 1.3rem;
+}
+
+.general{
+    margin: 5vw;
+    font: 'Inter', serif;
+    font-size: 1rem;
+}
+
+.example{
+    /* Box info - should be a Light green box */
+    padding: 3vh;
+    background-color: var(--example-color);
+    border: solid;
+    border-color: green;
+    border-radius: 1vh;
+    margin: 5vh;
+    /* Text Info */
+    font-size: 1.3rem;
+}
+
+.mistake{
+    /* Box info - should be a Light green box */
+    padding: 3vh;
+    background-color: var(--warning-color);
+    border: solid;
+    border-color: rgb(112, 4, 4);
+    border-radius: 1vh;
+    margin: 5vh;
+    /* Text Info */
+    font-size: 1.3rem;
+}
+
+.intro{
+    padding-left: 50vw;
+}
+

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*Style Guide*/
+:root { /* this is following the */
+    --primary-color: hsl(142, 18%, 55%); /* Primary color used for branding */
+    --secondary-color: hsl(42, 47%, 90%);
+    --emphasize-color: 	hsl(28, 31%, 33%); /* Secondary color used for highlights */
+    --accent-color: hsl(189, 28%, 40%); /* Accent color used for interactive elements */
+    --background-color: hsl(45, 29%, 97%); /* Background color for the site */
+    --text-color: 	hsla(205, 81%, 14%, 0.865); /* Main text color for readability */
+    --golden-color: 	hsl(44, 85%, 55%); /* color for special Golden emphasis*/
+
+    --alternate-font: 'Inter', sans-serif; /* Alternate font */
+    --heading-font: 'Playfair', sans-serif;
+    --main-font: 'Rubik', sans-serif; /* Font for body text */
+
+    --banner-height: 10vh;
+    --base-spacing: 1vw; /* Standard spacing unit for padding and margins */
+    --footer-height: 3vh;
+
+}

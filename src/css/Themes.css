@@ -1,0 +1,43 @@
+.dark-theme {
+    --background-color: black;
+    --text-color: white;
+}
+
+.light-theme {
+    --background-color: white;
+    --text-color: black;
+}
+
+.rain-forest-theme {
+    --background-color: hsl(101, 77%, 24%);
+    --primary-color:	hsl(35, 100%, 96%);
+    --text-color: 	hsl(60, 33%, 99%);
+}
+
+.cherry-blossom-theme {
+    --background-color: hsl(336, 85%, 87%);
+    --secondary-color: #ffffff;
+    --primary-color:	hsl(336, 98%, 78%);
+    --text-color: 	hsl(332, 67%, 65%);
+}
+
+.deep-sea-theme {
+    --background-color: hsl(250, 97%, 22%);
+    --primary-color:	hsl(250, 92%, 33%);
+    --text-color: 	hsl(246, 100%, 94%);
+}
+
+
+
+/*
+ rain forest
+- snowy mountains
+- glacier
+- cherry blossoms
+- desert dunes
+- deep sea
+- sandy ocean
+- orbit
+- grasslands
+- neon urban
+*/
