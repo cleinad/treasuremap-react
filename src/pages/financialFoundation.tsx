@@ -73,7 +73,7 @@ const FinancialFoundation = () => {
         </div>
       </div>
 
-      <Footer></Footer>
+      <Footer nextPageLink="wealth"></Footer>
     </>
   );
 };
