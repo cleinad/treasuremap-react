@@ -1,8 +1,10 @@
-import './css/Styles.css'
+import React from "react";
+import './css/styles.css'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './pages/home'
-import FinancialFoundation from './pages/financialFoundation'
+
+import Home from './pages/Home'  // Remove .tsx
+import FinancialFoundation from './pages/FinancialFoundation'  // Remove .tsx
 
 function App() {
   return (

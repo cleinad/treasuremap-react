@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../components/Banner";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -28,7 +29,7 @@ const Home = () => {
           life's adventures with confidence
         </p>
         <button className="cta-button">
-          <a href="financial-foundation">Start your Journey!</a>
+            <Link to="/financial-foundation">Start your Journey!</Link>
         </button>
       </section>
 

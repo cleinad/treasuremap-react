@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <div className="next-page">
-        <a href="wealth">Onto the Next!</a>
+        <Link to="/wealth">Onto the Next!</Link>
     </div>
   )
 }
