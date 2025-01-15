@@ -4,7 +4,7 @@ import './css/styles.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/Home' 
-import FinancialFoundation from './pages/FinancialFoundation' 
+import FinancialFoundation from './pages/financialFoundation' 
 
 function App() {
   return (
