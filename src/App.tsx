@@ -1,10 +1,10 @@
 import React from "react";
-import './css/styles.css'
+import './css/styles.css';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home' 
-import FinancialFoundation from './pages/financialFoundation' 
+import FinancialFoundation from './pages/financialFoundation';
 
 function App() {
   return (
