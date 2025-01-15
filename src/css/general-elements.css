@@ -9,7 +9,7 @@ body, h1, h2, h3, p, a, button {
 h1 {
     font-family: var(--heading-font);
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
 }
 
@@ -42,10 +42,15 @@ h6 {
 
   /* Paragraph Styles */
 p {
-    font-size: 1.25rem;
-    line-height: 1.5;
+    font-size: 1.2rem;
+    line-height: 1.7;
     margin: 1rem;
     margin-top: 0;
+}
+
+.text-block {
+    margin-left: 13rem;
+    margin-right: 13rem;
 }
 
 /* General Body Layout */
@@ -82,37 +87,19 @@ body {
     display: flex;
     flex-direction: column;
 
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 15vw;
+    margin-right: 5vw;
 
     margin-bottom: var(--footer-height);
 }
 
-.header{
-    text-align: left; /* Align text in the greeting section to the left */
-    font-size: 2rem;
-    margin: var(--base-spacing); /* Add spacing around the greeting */
-    position: relative;
-    color: var(--text-color);
-    font-weight: 900;
-}
 .header h1 {
     text-align: center;
     margin: 0 auto;
     font-weight: 700;
 }
 
-.important{
-    /* Box info - should be a blue box */
-    padding: 3vh;
-    background-color: var(--primary-color);
-    border: solid;
-    border-color: var(--secondary-color);
-    border-radius: 1vh;
-    margin: 5vh;
-    /* Text Info */
-    font-size: 1.3rem;
-}
+
 
 .general{
     margin: 5vw;

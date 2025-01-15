@@ -1,0 +1,16 @@
+.page-title {
+  text-align: center; /* Align text in the greeting section to the left */
+
+  position: relative;
+  color: var(--text-color);
+  font-weight: 900;
+
+  margin-bottom: 3rem;
+}
+
+.updateDate {
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}

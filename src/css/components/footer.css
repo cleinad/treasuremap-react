@@ -1,0 +1,12 @@
+.next-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  /* Three equal columns */
+  }
+  
+  .next-page a {
+    grid-column: 3;  /* Place in last column */
+    justify-self: end;  /* Align to right within the column */
+
+    background-color: var(--golden-color);
+    margin: 2rem;
+  }

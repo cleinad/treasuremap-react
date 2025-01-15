@@ -1,7 +1,11 @@
-@import url('Variables.css');
-@import url('GeneralElements.css');
-@import url('Themes.css');
-
-@import url('pages/Hero.css');
+@import url('variables.css');
+@import url('general-elements.css');
+@import url('themes.css');
 
 @import url('components/banner.css');
+@import url('components/pyramid.css');
+@import url('components/buttons.css');
+@import url('components/page-heading.css');
+@import url('components/footer.css');
+
+@import url('pages/Hero.css');

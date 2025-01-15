@@ -1,4 +1,5 @@
 header {
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -10,18 +11,18 @@ header.banner {
 
     border-bottom: solid;
     border-bottom-width: 1px;
-    border-bottom-color: var(--primary-color);
+    border-bottom-color: hsla(16, 96%, 90%, 0.25);
 
     height: var(--banner-height);
     z-index:99999;
-    background-color: transparent; /* Use the primary color for the background */
+    background-color: var(--banner-color); /* Use the primary color for the background */
     justify-content: space-between;
 
     display: flex; /* Flexbox for layout */
     flex-flow:row wrap; /* (flex-direction and flex-wrap) sets direction to horizontal (is on row by default)*/
 
     align-items: center; /* Vertically center the items */
-    padding-bottom: var(--base-spacing); /*Add padding based on a global spacing variable */
+    
 }
 
 .banner-title-logo {
@@ -30,13 +31,14 @@ header.banner {
     align-items: center; /* Vertically center all elements inside */
     gap: 1vw; /* Add spacing between the header elements */
     padding-left: 2vw;
+
+    color: var(--text-color);
     
     margin-left: 0;
 }
 
 .banner-links {
-    justify-content: flex-end; /* Align content horizontally to the right */
-    padding-right: 5%
+    padding-right: 5%;
 }
 
 .banner-image {
@@ -47,14 +49,12 @@ header.banner {
 .banner-title {
     font-family: var(--heading-font);
     font-size: 1.8rem; /* Make the title text slightly larger */
-    font-weight: 600;
+    font-weight: 700;
     margin: 0; /* Remove default margin */
     color: var(--title-color); /* Use the global text color variable */
-    align-items: center;
 }
 
 .banner-navigation {
     display: flex; /* Layout navigation links horizontally */
-    align-items: center; /* Center links vertically */
     gap: 15px; /* Add spacing between navigation items */
 }

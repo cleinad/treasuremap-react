@@ -1,0 +1,42 @@
+/* styling for buttons */
+
+/*styling for the banner*/
+.nav-links {
+    list-style: none; /* Remove bullet points from the list */
+    display: flex; /* Arrange list items horizontally */
+    gap: 10px; /* Add spacing between links */
+}
+
+a {
+    color: var(--text-color);
+    background-color: var(--emphasize-color);
+    text-decoration: none; /* Remove underline for links */
+    padding: 8px 12px; /* Add clickable padding around links */
+    border-radius: 10px; /* Slight rounding of corners */
+
+}
+
+a:hover {
+     /* Change background color on hover */
+    color: #fff; /* Change text color to white on hover */
+}
+
+.banner-title-logo a {
+    background-color: transparent;
+}
+
+/*the theme toggle button*/
+#theme-toggle {
+  padding: 10px 20px;
+  background-color: var(--text-color);
+  color: var(--background-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 2vh;
+}
+
+#theme-toggle:hover {
+  opacity: 0.8;
+}

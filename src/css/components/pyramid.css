@@ -1,0 +1,60 @@
+.container {
+    width: 50%; /* Adjust this value to control the width of the pyramid */
+    margin: 0 auto; /* Center the pyramid horizontally */
+    position: relative; /* Make the pyramid container relative for absolute positioning of layers */
+}
+
+.pyramid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130vh;
+    /*position: absolute; /* Position the pyramid absolutely within the container */
+    bottom: 0; /* Align the base of the pyramid with the bottom of the container */
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.layer {
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-color: var(--text-color);
+    background-color: var(--secondary-color);
+    margin-bottom: 1vh;
+}
+
+.layer:nth-child(1) {
+    justify-content: center;
+    width: 40%;
+    bottom: 100px; 
+}
+
+.layer:nth-child(2) {
+    width: 50%;
+    bottom: 80px;
+}
+
+.layer:nth-child(3) {
+    width: 60%;
+    bottom: 60px;
+}
+
+.layer:nth-child(4) {
+    width: 70%;
+    bottom: 40px;
+}
+
+.layer:nth-child(5) {
+    width: 80%;
+    bottom: 20px;
+}
+
+.layer:nth-child(6) {
+    width: 100%;
+    bottom: 20px;
+}
+
+h3{
+    margin-top: 1rem;
+}

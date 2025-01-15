@@ -4,19 +4,20 @@
 /*Style Guide*/
 :root { /* this is following the */
     --primary-color: hsl(142, 18%, 55%); /* Primary color used for branding */
-    --secondary-color: hsl(42, 47%, 90%);
+    --secondary-color:hsl(18, 100%, 91%);
     --emphasize-color: 	hsl(28, 31%, 33%); /* Secondary color used for highlights */
     --accent-color: hsl(189, 28%, 40%); /* Accent color used for interactive elements */
-    --background-color: hsl(45, 29%, 97%); /* Background color for the site */
-    --text-color: 	hsla(205, 81%, 14%, 0.865); /* Main text color for readability */
-    --golden-color: 	hsl(44, 85%, 55%); /* color for special Golden emphasis*/
+    --background-color: hsl(34, 100%, 99%); /* Background color for the site */
+    --text-color:hsla(23, 100%, 2%, 0.865); /* Main text color for readability */
+    --golden-color: hsl(44, 85%, 55%); /* color for special Golden emphasis*/
+    --banner-color: hsl(24, 100%, 97%);
 
     --alternate-font: 'Inter', sans-serif; /* Alternate font */
     --heading-font: 'Playfair', sans-serif;
     --main-font: 'Rubik', sans-serif; /* Font for body text */
 
-    --banner-height: 10vh;
-    --base-spacing: 1vw; /* Standard spacing unit for padding and margins */
-    --footer-height: 3vh;
+    --banner-height: 11vh;
+    --base-spacing: 1rem; /* Standard spacing unit for padding and margins */
+    --footer-height: 6rem;
 
 }
