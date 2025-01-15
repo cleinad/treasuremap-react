@@ -2,7 +2,7 @@ import './css/Styles.css'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home'
-import FinancialFoundation from './pages/FinancialFoundation'
+import FinancialFoundation from './pages/financialFoundation'
 
 function App() {
   return (
