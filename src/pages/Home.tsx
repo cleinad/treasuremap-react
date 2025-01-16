@@ -30,7 +30,7 @@ const Home = () => {
           life's adventures with confidence
         </p>
         <button className="cta-button">
-            <Link to="/Wealth">Start your Journey!</Link>
+            <Link to="/financialFoundation">Start your Journey!</Link>
         </button>
       </section>
     </>

@@ -51,7 +51,7 @@ const Wealth = () => {
         </div>
       </div>
 
-      <Footer previousPageLink="" nextPageLink="HowMoneyWorks"></Footer>
+      <Footer previousPageLink="financialFoundation" nextPageLink="HighCostOfWaiting"></Footer>
     </>
   );
 };

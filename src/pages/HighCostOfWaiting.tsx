@@ -12,25 +12,25 @@ const HighCostOfWaiting = () => {
       <Banner></Banner>
       <div className="content">
         <ArticleHeader
-          title="Start today"
+          title="What're you waiting for?!"
           updateDate="January 15, 2025"
         ></ArticleHeader>
         <div className="text-block">
           <div id="how-money-works">
-            <div className="header">
-              <h2>How Money Works</h2>
-            </div>
+            
             <img
               src={HighCostOfWaitingPic}
               alt="The High Cost of Waiting"
               className="general-image"
             />
-            <p>Maximize Gains</p>
+            <p>Your money is worth more now, than it will likely be again. Inflation chews it up slowly, 
+                and as we can see above, the sooner you start, the sooner you can get the law of compound interest working for you.
+            </p>
           </div>
         </div>
       </div>
 
-      <Footer previousPageLink="HowMoneyWorks" nextPageLink="RuleOf72"></Footer>
+      <Footer previousPageLink="Wealth" nextPageLink="RuleOf72"></Footer>
     </>
   );
 };

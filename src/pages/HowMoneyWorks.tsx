@@ -25,7 +25,7 @@ const HowMoneyWorks = () => {
               alt="How Money Works Equation"
               className="general-image"
             />
-            <p>Maximize Gains</p>
+            <p>We seek to have the highest rate of return </p>
           </div>
         </div>
       </div>

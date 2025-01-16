@@ -8,11 +8,11 @@ const Rainforest = () => {
       <Banner bannerTitleStyle={{ color: "var(--rainforest-light-color)" }} />
       <section className="rainforest-cinematic">
         <div className="gradient" />
-        <div className="hero-content">
-          <h1>
+        <div className="hero-content" >
+          <h1 style={{ color: "var(--rainforest-light-color)" }}>
             Chapter II, <br /> Protection
           </h1>
-          <h3>
+          <h3 style={{ color: "var(--rainforest-light-color)" }}>
             Protect ourselves,
             <br />
             preparing for the worst case scenario

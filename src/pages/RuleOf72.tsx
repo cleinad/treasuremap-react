@@ -24,6 +24,8 @@ const RuleOf72 = () => {
             />
             <p>If you divide 72 by your rate of return, that's approximately how long
                 it'll take for your money to double.
+                <br/><br/>
+                A helpful tool to help us along the way.
             </p>
           </div>
         </div>
