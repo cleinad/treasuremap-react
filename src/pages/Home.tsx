@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
+    <Banner bannerTitleStyle={{color: "var(--background-color)"}}/>
       <section className="hero-section">
         <div className="gradient" />
         <div className="hero-content">
@@ -29,11 +30,9 @@ const Home = () => {
           life's adventures with confidence
         </p>
         <button className="cta-button">
-            <Link to="/financial-foundation">Start your Journey!</Link>
+            <Link to="/Wealth">Start your Journey!</Link>
         </button>
       </section>
-
-      <Banner />
     </>
   );
 };

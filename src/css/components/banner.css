@@ -15,7 +15,7 @@ header.banner {
 
     height: var(--banner-height);
     z-index:99999;
-    background-color: var(--banner-color); /* Use the primary color for the background */
+    background-color: transparent; /* Use the primary color for the background */
     justify-content: space-between;
 
     display: flex; /* Flexbox for layout */
@@ -51,7 +51,7 @@ header.banner {
     font-size: 1.8rem; /* Make the title text slightly larger */
     font-weight: 700;
     margin: 0; /* Remove default margin */
-    color: var(--title-color); /* Use the global text color variable */
+    color: var(--text-color); /* Use the global text color variable */
 }
 
 .banner-navigation {

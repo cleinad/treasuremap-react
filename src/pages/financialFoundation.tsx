@@ -6,10 +6,10 @@ import Footer from "../components/Footer";
 const FinancialFoundation = () => {
   return (
     <>
-      <Banner bannerStyle={{backgroundColor: "transparent"}}
-      bannerTitleStyle={{color: "var(--text-color)"}}></Banner>
+      <Banner/>
+
       <div className="content">
-        <ArticleHeader title="Where's our destination?"
+        <ArticleHeader title="Alright. What's the plan?"
         updateDate="January 14, 2025"></ArticleHeader>
 
         <div className="text-block">
@@ -73,7 +73,7 @@ const FinancialFoundation = () => {
         </div>
       </div>
 
-      <Footer nextPageLink="wealth"></Footer>
+      <Footer nextPageLink="Wealth"></Footer>
     </>
   );
 };

@@ -9,7 +9,7 @@
 
 a {
     color: var(--text-color);
-    background-color: var(--emphasize-color);
+    background-color: var(--golden-color);
     text-decoration: none; /* Remove underline for links */
     padding: 8px 12px; /* Add clickable padding around links */
     border-radius: 10px; /* Slight rounding of corners */
@@ -18,7 +18,7 @@ a {
 
 a:hover {
      /* Change background color on hover */
-    color: #fff; /* Change text color to white on hover */
+    color: var(--emphasize-color); /* Change text color to white on hover */
 }
 
 .banner-title-logo a {

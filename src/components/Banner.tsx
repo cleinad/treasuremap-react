@@ -11,12 +11,12 @@ const Banner = ({bannerStyle, bannerTitleStyle}: Props) => {
   return (
     <header className="banner" style={bannerStyle}>
       {/*Container for header content */}
-      <div className="banner-title-logo" style={bannerTitleStyle}>
+      <div className="banner-title-logo" >
         {/* Logo section */}
         <img src={treasureMapLogo} alt="Site Logo" className="banner-image" />
 
         {/* Main Title */}
-        <a href="/" className="banner-title">
+        <a href="/" className="banner-title" style={bannerTitleStyle}>
           treasuremap
         </a>
         {/* Navigation Menu */}
