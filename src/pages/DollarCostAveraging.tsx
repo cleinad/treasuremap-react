@@ -30,7 +30,7 @@ const DollarCostAveraging = () => {
         </div>
       </div>
 
-      <Footer nextPageLink="RuleOf72"></Footer>
+      <Footer nextPageLink="Rainforest"></Footer>
     </>
   );
 };

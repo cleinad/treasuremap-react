@@ -12,6 +12,8 @@
     --golden-color: hsl(44, 85%, 55%); /* color for special Golden emphasis*/
     --banner-color: hsl(24, 100%, 97%);
 
+    --rainforest-light-color: hsl(110, 100%, 95%);
+
     --alternate-font: 'Inter', sans-serif; /* Alternate font */
     --heading-font: 'Playfair', sans-serif;
     --main-font: 'Rubik', sans-serif; /* Font for body text */

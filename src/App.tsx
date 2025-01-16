@@ -16,7 +16,10 @@ import HighCostOfWaiting from "./pages/HighCostOfWaiting";
 import RuleOf72 from "./pages/RuleOf72";
 import DollarCostAveraging from "./pages/DollarCostAveraging";
 
+import Rainforest from "./pages/Rainforest";
+
 import ScrollToTop from "./components/ScrollToTop";
+
 
 function App() {
   return (
@@ -37,6 +40,10 @@ function App() {
           <Route
             path="/DollarCostAveraging"
             element={<DollarCostAveraging />}
+          />
+          <Route
+            path="/Rainforest"
+            element={<Rainforest />}
           />
 
           {/* Add more routes as needed, for example: */}
