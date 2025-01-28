@@ -140,7 +140,23 @@ header.banner {
     text-align: left;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
+    .hero-content h1 {
+        margin-left: 5vw;
+        font-size: 3.5rem;
+        top: 15vh;
+    }
+
+    .hero-content h3 {
+        width: 80vw;
+        font-size: 1.25rem;
+        top: 77vh;
+        left: 10vw;
+        margin-right: 2rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
     .hero-content h1 {
         margin-left: 5vw;
         font-size: 5rem;

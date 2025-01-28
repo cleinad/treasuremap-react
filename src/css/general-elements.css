@@ -99,7 +99,7 @@ body {
 }
 
 #subheading-bold {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .general {
@@ -107,8 +107,6 @@ body {
   font: "Inter", serif;
   font-size: 1rem;
 }
-
-
 
 .intro {
   padding-left: 50vw;
@@ -118,7 +116,24 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (max-width: 767px) {
+/* Media Queries */
+@media (max-width: 480px) {
+  :root {
+    --content-padding: 1rem;
+  }
+
+  .content {
+    min-width: 300px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .text-block {
+    margin: 1rem 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
   .content {
     min-width: 500px;
     margin-left: 10rem;
@@ -126,11 +141,10 @@ html {
   }
 
   .text-block {
-
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .content {
     min-width: 700px;
     margin-left: 28rem;

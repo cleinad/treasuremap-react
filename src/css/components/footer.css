@@ -7,15 +7,15 @@
 .previous-page {
   grid-column: 1;
   justify-self: start;
-
-  background-color: var(--golden-color);
+  min-width: 10rem;
+  
   margin: 2rem;
 }
 
 .next-page {
   grid-column: 3;
   justify-self: end;
-
-  background-color: var(--golden-color);
+  min-width: 10rem;
+  
   margin: 2rem;
 }
