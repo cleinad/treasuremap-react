@@ -9,10 +9,9 @@ const Home = () => {
       <section className="hero-section">
         <div className="gradient" />
         <div className="hero-content">
-          <h1>Welcome, <br/> Adventurer</h1>
+          <h1>Treasuremap</h1>
           <h3>
-            Embark on a journey to<br/>conquer your financial fears and<br/>uncover
-            life's greatest treasures.
+            The simple way to understand <br/> your personal finances
           </h3>
         </div>
       </section>
@@ -30,7 +29,7 @@ const Home = () => {
           life's adventures with confidence
         </p>
         <button className="cta-button">
-            <Link to="/financialFoundation">Start your Journey!</Link>
+            <Link to="/TFSA">Start your Journey!</Link>
         </button>
       </section>
     </>

@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./css/styles.css";
 
 import {
@@ -9,6 +10,9 @@ import {
 } from "react-router-dom";
 
 import Home from "./pages/Home";
+import TFSA from "./pages/TFSA";
+import Upcoming from "./pages/Upcoming";
+
 import FinancialFoundation from "./pages/financialFoundation";
 import Wealth from "./pages/Wealth";
 import HowMoneyWorks from "./pages/HowMoneyWorks";
@@ -29,6 +33,9 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/TFSA" element={<TFSA />}/>
+          <Route path="/Upcoming" element={<Upcoming />}/>
+
           <Route
             path="/financialFoundation"
             element={<FinancialFoundation />}

@@ -1,20 +1,21 @@
 .page-buttons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;  /* Three equal columns */
-  }
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+}
 
-  .previous-page {
-    grid-column: 1;  /* Place in last column */
-    justify-self: start;  /* Align to right within the column */
+.previous-page {
+  grid-column: 1;
+  justify-self: start;
 
-    background-color: var(--golden-color);
-    margin: 2rem;
-  }
-  
-  .next-page {
-    grid-column: 3;  /* Place in last column */
-    justify-self: end;  /* Align to right within the column */
+  background-color: var(--golden-color);
+  margin: 2rem;
+}
 
-    background-color: var(--golden-color);
-    margin: 2rem;
-  }
+.next-page {
+  grid-column: 3;
+  justify-self: end;
+
+  background-color: var(--golden-color);
+  margin: 2rem;
+}

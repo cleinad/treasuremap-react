@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 interface Props {
   previousPageLink?: string;
-  nextPageLink: string;
+  nextPageLink?: string;
 }
 
 const Footer = ({ previousPageLink, nextPageLink }: Props) => {
@@ -11,10 +11,10 @@ const Footer = ({ previousPageLink, nextPageLink }: Props) => {
     <>
       <div className="page-buttons">
         <div className="previous-page">
-          {<Link to={"/" + previousPageLink}>Previous Page</Link>}
+          {previousPageLink && <Link to={"/" + previousPageLink}>Previous Page</Link>}
         </div>
         <div className="next-page">
-          {<Link to={"/" + nextPageLink}>Onto the Next!</Link>}
+          {nextPageLink && <Link to={"/" + nextPageLink}>Next Page</Link>}
         </div>
       </div>
     </>

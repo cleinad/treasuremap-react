@@ -1,0 +1,43 @@
+#upcoming-title h1 {
+    color: white;
+    font-size: 10rem;
+    position: relative;
+    bottom: 5vh;
+
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 
+                2px 2px 4px rgba(0, 0, 0, 0.5), 
+                3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+#cherry-blossoms-cinematic .banner-title-logo a {
+    color: var(--background-color);
+}
+
+#cherry-blossoms-cinematic .banner-title-logo a:hover {
+    color: white;
+}
+
+#cherry-blossoms-cinematic .page-buttons {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-width: 767px) {
+    #upcoming-title h1{
+        font-size: 6rem;
+        margin-left: 1.25rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      min-width: 700px;
+      margin-left: 28rem;
+      margin-right: 28rem;
+    }
+  
+    .text-block {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+  }

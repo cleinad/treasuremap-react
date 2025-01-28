@@ -1,0 +1,37 @@
+#key-points-boundary {
+    margin-top: var(--base-spacing);
+    border: solid;
+    border-radius: 10px;
+    border-color: var(--golden-color);
+    border-width: 3px;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 2rem;
+}
+
+.accordian-body p{
+    padding-left: 2rem;
+    margin-right: 2rem;
+}
+
+.accordion-button{
+    background-color: var(--tan-color);
+    color: var(--text-color);
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--golden-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.accordion-button {
+    border-color: var(--tan-color);
+}
+
+.accordion-item {
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+}

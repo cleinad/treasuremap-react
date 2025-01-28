@@ -10,8 +10,8 @@ header.banner {
     line-height: 0;
 
     border-bottom: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: hsla(16, 96%, 90%, 0.25);
+    border-bottom-width: 1.5px;
+    border-bottom-color: hsla(20, 1%, 60%, 0.21);
 
     height: var(--banner-height);
     z-index:99999;

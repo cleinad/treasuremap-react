@@ -3,16 +3,18 @@
 
 /*Style Guide*/
 :root { /* this is following the */
-    --primary-color: hsl(142, 18%, 55%); /* Primary color used for branding */
-    --secondary-color:hsl(18, 100%, 91%);
+    --primary-color: hsl(45, 100%, 99%); /* Primary color used for branding */
+    --secondary-color:hsl(18, 100%, 73%);
     --emphasize-color: 	hsl(28, 31%, 33%); /* Secondary color used for highlights */
     --accent-color: hsl(189, 28%, 40%); /* Accent color used for interactive elements */
     --background-color: hsl(34, 100%, 99%); /* Background color for the site */
     --text-color:hsla(23, 100%, 2%, 0.865); /* Main text color for readability */
     --golden-color: hsl(44, 85%, 55%); /* color for special Golden emphasis*/
+    --tan-color: hsl(40, 100%, 92%);
     --banner-color: hsl(24, 100%, 97%);
 
     --rainforest-light-color: hsl(110, 100%, 95%);
+    --rainforest-mid-color:  hsl(108, 73%, 32%);
 
     --alternate-font: 'Inter', sans-serif; /* Alternate font */
     --heading-font: 'Playfair', sans-serif;

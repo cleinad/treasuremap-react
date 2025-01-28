@@ -9,6 +9,17 @@
     overflow: hidden; /* Ensures no overflow */
 }
 
+#cherry-blossoms-cinematic {
+    height: 100vh; /* Adjust the total visible height */
+    width: 100vw;
+    background: url('../images/cherry-blossoms-background.jpg') left top/cover no-repeat; /* Crop the top of the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Ensures no overflow */
+}
+
 .dark-theme {
     --background-color: black;
     --text-color: white;

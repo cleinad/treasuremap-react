@@ -1,0 +1,10 @@
+.small-divider {
+    display: block;
+    height: 6px;
+    width: 100px;
+    margin: 10px 0px 18px 1rem;
+    
+    margin-left: 1rem;
+    color: black;
+    z-index: 99999;
+}
