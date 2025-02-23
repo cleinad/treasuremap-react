@@ -1,7 +1,7 @@
 //rafce for shortcut
 import React from "react";
 import treasureMapLogo from "../images/treasuremap_logo.png";
-import ConceptsGallery from "../pages/ConceptsGallery";
+import { Link } from 'react-router-dom';
 
 interface Props {
     bannerStyle?: React.CSSProperties;
@@ -32,7 +32,7 @@ const Banner = ({bannerStyle, bannerTitleStyle, linkColours}: Props) => {
           >
             {/* List of links for Navigation */}
             <li>
-              <a href="ConceptsGallery" style={linkColours}>Concepts Gallery</a>
+              <Link to="/ConceptsGallery" style={linkColours}>Concepts Gallery</Link>
             </li>
           </ul>
         </nav>
