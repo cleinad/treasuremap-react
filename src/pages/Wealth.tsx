@@ -3,7 +3,7 @@ import Banner from "../components/Banner";
 import ArticleHeader from "../components/ArticleHeader";
 import Footer from "../components/Footer";
 
-import WealthFormula from "../images/wealth-formula.png";
+import WealthFormula from "../images/concept-gallery/wealth-formula.png";
 
 const Wealth = () => {
   return (

@@ -19,6 +19,7 @@ import HowMoneyWorks from "./pages/HowMoneyWorks";
 import HighCostOfWaiting from "./pages/HighCostOfWaiting";
 import RuleOf72 from "./pages/RuleOf72";
 import DollarCostAveraging from "./pages/DollarCostAveraging";
+import ConceptsGallery from "./pages/ConceptsGallery";
 
 import Rainforest from "./pages/Rainforest";
 
@@ -52,6 +53,7 @@ function App() {
             path="/Rainforest"
             element={<Rainforest />}
           />
+          <Route path="/ConceptsGallery" element={<ConceptsGallery />}/>
 
           {/* Add more routes as needed, for example: */}
           {/* <Route path="/topics" element={<Topics />} /> */}

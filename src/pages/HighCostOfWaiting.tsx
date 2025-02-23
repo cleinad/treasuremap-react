@@ -4,7 +4,7 @@ import Banner from "../components/Banner";
 import ArticleHeader from "../components/ArticleHeader";
 import Footer from "../components/Footer";
 
-import HighCostOfWaitingPic from "../images/the-high-cost-of-waiting.png";
+import HighCostOfWaitingPic from "../images/concept-gallery/the-high-cost-of-waiting.png";
 
 const HighCostOfWaiting = () => {
   return (

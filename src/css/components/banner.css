@@ -58,3 +58,17 @@ header.banner {
     display: flex; /* Layout navigation links horizontally */
     gap: 15px; /* Add spacing between navigation items */
 }
+
+.nav-links a{
+    all: unset;
+    font-family: playfair;
+    font-size: 1.25rem;
+    color: var(--text-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-links a:hover{
+    color: var(--golden-color);
+    
+}

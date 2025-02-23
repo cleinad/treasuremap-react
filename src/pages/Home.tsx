@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
-    <Banner bannerTitleStyle={{color: "var(--background-color)"}}/>
+    <Banner bannerTitleStyle={{color: "var(--background-color)"}} linkColours={{color: "var(--background-color)"}}/>
       <section className="hero-section">
         <div className="gradient" />
         <div className="hero-content">

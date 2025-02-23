@@ -6,7 +6,7 @@ const Upcoming = () => {
   return (
     <>
       <div id="cherry-blossoms-cinematic">
-        <Banner></Banner>
+        <Banner linkColours={{color: "var(--background-color)"}}></Banner>
       
         <div id="upcoming-title">
           <h1>Stay Tuned</h1>

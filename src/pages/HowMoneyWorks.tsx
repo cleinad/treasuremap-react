@@ -4,7 +4,7 @@ import Banner from "../components/Banner";
 import ArticleHeader from "../components/ArticleHeader";
 import Footer from "../components/Footer";
 
-import HowMoneyWorksPic from "../images/how-money-works.png";
+import HowMoneyWorksPic from "../images/concept-gallery/how-money-works.png";
 
 const HowMoneyWorks = () => {
   return (

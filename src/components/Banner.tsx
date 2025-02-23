@@ -1,13 +1,15 @@
 //rafce for shortcut
 import React from "react";
 import treasureMapLogo from "../images/treasuremap_logo.png";
+import ConceptsGallery from "../pages/ConceptsGallery";
 
 interface Props {
     bannerStyle?: React.CSSProperties;
     bannerTitleStyle?: React.CSSProperties;
+    linkColours?: React.CSSProperties;
 }
 
-const Banner = ({bannerStyle, bannerTitleStyle}: Props) => {
+const Banner = ({bannerStyle, bannerTitleStyle, linkColours}: Props) => {
   return (
     <header className="banner" style={bannerStyle}>
       {/*Container for header content */}
@@ -22,19 +24,19 @@ const Banner = ({bannerStyle, bannerTitleStyle}: Props) => {
         {/* Navigation Menu */}
       </div>
 
-    {/*tentatively don't need this
+    {
       <div className="banner-links">
         <nav className="banner-navigation">
           <ul
             className="nav-links"
           >
-            {/* List of links for Navigation 
+            {/* List of links for Navigation */}
             <li>
-              <a href="#">About</a>
+              <a href="ConceptsGallery" style={linkColours}>Concepts Gallery</a>
             </li>
           </ul>
         </nav>
-      </div>*/}
+      </div>}
     </header>
   );
 };

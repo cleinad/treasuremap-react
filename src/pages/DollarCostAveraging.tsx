@@ -4,7 +4,7 @@ import Banner from "../components/Banner";
 import ArticleHeader from "../components/ArticleHeader";
 import Footer from "../components/Footer";
 
-import DollarCostAveragingPic from "../images/dollar-cost-averaging.png";
+import DollarCostAveragingPic from "../images/concept-gallery/dollar-cost-averaging.png";
 
 const DollarCostAveraging = () => {
   return (

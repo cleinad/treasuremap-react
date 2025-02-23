@@ -4,7 +4,7 @@ import Banner from "../components/Banner";
 import ArticleHeader from "../components/ArticleHeader";
 import Footer from "../components/Footer";
 
-import RuleOf72Pic from "../images/rule-of-72.png";
+import RuleOf72Pic from "../images/concept-gallery/rule-of-72.png";
 
 const RuleOf72 = () => {
   return (
